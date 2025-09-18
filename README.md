@@ -9,7 +9,7 @@ Exception Java adalah mekanisme penanganan kesalahan (error handling) yang digun
 # Langkah-langkah Pembuatan Projek JFrame Gui
 1. Membuat Database PostgreSQL dan Create Tablenya
 2. Membuat Project di NetBeans, beri nama project, misalnya Petville.
-3. Buat package bernama petville, Di dalam package tersebut buat file: Koneksi.java → untuk koneksi database, JualBeliHewan.java (JFrame Form) → GUI utama, TiketBioskop.java → simulasi exception handling.
+3. Buat package bernama pertemuan5, Di dalam package tersebut buat file: Koneksi.java → untuk koneksi database, JualBeliHewan.java (JFrame Form) → GUI utama, TiketBioskop.java → simulasi exception handling.
 4. Klik kanan pada package petville → New → JFrame Form → beri nama JualBeliHewan.
 5. Tambahkan komponen GUI:
 - JLabel untuk label teks (ID, Nama Hewan, Jenis, Harga).
@@ -18,7 +18,7 @@ Exception Java adalah mekanisme penanganan kesalahan (error handling) yang digun
 - JTable untuk menampilkan data hewan.
 # Langkah-langkah Pembuatan Projek Exception
 1. Buat project baru: File → New Project → Java Application dan beri nama project, misalnya PraktikumException.
-2. Buat package bernama praktikum4, Di dalam package tersebut buat file: TiketBioskop.java → program utama untuk simulasi pemesanan tiket.
+2. Buat package bernama praktikum5, Di dalam package tersebut buat file: TiketBioskop.java → program utama untuk simulasi pemesanan tiket.
 3. Membuat Custom Exception (misalnya KursiSudahDipesanException, PembayaranKurangException, InputTidakValidException).
 4. Di TiketBioskop.java, tambahkan atribut untuk menyimpan kursi & harga
 5. Membuat Method pesanKursi() yang berisi program untuk Validasi input kursi, Periksa apakah kursi sudah dipesan, Periksa apakah pembayaran cukup, Tandai kursi sebagai terisi jika berhasil, Hitung kembalian.
